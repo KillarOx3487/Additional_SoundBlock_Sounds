@@ -1,1 +1,48 @@
-
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Boat_Horn_1</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+	  <Volume>1.00</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\Boat_Horn_1.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Boat_Horn_2</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+	  <Volume>1.00</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Boat_Horn_2.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Red_Alert_1</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+	  <Volume>1.00</Volume>
+	  <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Red_Alert_1.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>
